@@ -38,7 +38,7 @@ class hash_table
     hash_lists[index].pop_back();
   }
 
-  int print_value(int key)
+  void print_value(int key)
   {
     int index = hash_function(key);
     list <int> list_req = hash_lists[index];
